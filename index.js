@@ -9,7 +9,7 @@ const port = process.env.PORT | '7000';
 //Limiting Middleware
 const limiter = rateLimit({
     max: 3,
-    window: 3 * 60 * 1000,
+    windowMs: 3 * 60 * 1000,
     message: 'Too many request from this IP, Please try again after 3 minutes'
 });
 app.use('*', limiter);
