@@ -12,7 +12,7 @@ const limiter = rateLimit({
     windowMs: 3 * 60 * 1000,
     message: 'Too many request from this IP, Please try again after 3 minutes'
 });
-app.use('*', limiter);
+app.use('/howold', limiter);
 
 
 
