@@ -1,8 +1,8 @@
 {
-    "name": "aliyu ahmad",
+    "name": "aliyu-ahmad",
     "track": "backend",
     "email": "bnahmad83@gmail.com",
     "githubUsername": "xaxxoo",
-    "deployedAppURL": "herok",
+    "deployedAppURL": "https://git.heroku.com/my-backend-proj.git",
     "explainer": "This app is buit with nodejs and it calculates.."
 }

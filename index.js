@@ -22,7 +22,7 @@ function calculateAge(birthday) {
   return Math.abs(ageDate.getUTCFullYear() - 1970);
 }
 
-app.get('/api', (_, res) => {
+app.get('/', (_, res) => {
   return res.json({ message: 'ok!', status: 200 });
 });
 
